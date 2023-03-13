@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h2>Registration Form</h2>
+      </div>
+
+      <form action="/card/card.html">
+        <!-- Name -->
+        <div class="input_field">
+          <label for="fullname">Full Name</label>
+          <input type="text" name="name" id="fullname" />
+        </div>
+
+        <!-- Image -->
+        <div class="input_field">
+          <label for="image">Image</label>
+          <input type="file" name="iamge" id="image" />
+        </div>
+
+        <!-- Date of Birth-->
+        <div class="input_field">
+          <label for="date">Date of Birth</label>
+          <input type="date" name="date" id="date" />
+        </div>
+
+        <!-- Gender -->
+        <div class="input_field">
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+
+        <!-- Hobbies -->
+        <div class="input_field">
+          <label for="hobbies">Hobbies</label>
+          <input type="text" name="hobbies" id="hobbies" />
+        </div>
+
+        <!-- Job -->
+        <div class="input_field">
+          <label for="job">Job</label>
+          <input type="text" name="job" id="job" />
+        </div>
+        
+        <!-- Nationality -->
+        <div class="input_field">
+          <label for="nationality">Nationality</label>
+          <select name="nationality" id="nationality">
+            <option value="arabian">Arabian</option>
+            <option value="american">American</option>
+            <option value="australian">Australian</option>
+            <option value="british">British</option>
+            <option value="indonesian">Indonesian</option>
+            <option value="indian">Indian</option>
+            <option value="japanese">Japanese</option>
+            <option value="spanish">Spanish</option>
+            <option value="portuguese">Portuguese</option>
+          </select>
+        </div>
+        
+        <!-- Biodata -->
+        <div class="input_field">
+          <label for="biodata">Biodata</label>
+          <input type="text" name="biodata" id="biodata">
+        </div>
+
+
+        <!-- Submit -->
+        <div class="input_field">
+            <input type="submit" name="submit" value="submit" id="submit">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

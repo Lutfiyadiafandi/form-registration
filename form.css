@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ccc;
+    padding: 0 10px;
+}
+.container {
+    background-color: white;
+    /* border: 1px solid #333; */
+    max-width: 400px;
+    padding: 30px;
+    margin: 18px auto;
+    display: flex;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.container .title h2 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: rgb(104, 126, 250);
+    text-transform: uppercase;
+}
+.container form {
+    width: 100%;
+}
+.container form .input_field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.container form .input_field label {
+    color: #757575;
+    margin-right: 10px;
+    font-size: 0.9em;
+    width: 200px;
+}
+.container form .input_field input,
+.container form .input_field select {
+    width: 100%;
+    font-size: 0.9em;
+    padding: 6px 8px;
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+}
+#biodata {
+    height: 100px;
+    width: 100%;
+}
+#submit {
+    background-color: rgb(104, 126, 250);
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
